@@ -1,0 +1,38 @@
+/* TeacherForm.css */
+
+/* Container for form to ensure proper spacing */
+.form-container {
+    margin-top: 100px; /* Space from the top to ensure it doesn't overlap with the navbar */
+    margin-left: 230px; /* Space from the left to align it after the sidebar */
+    padding: 20px;
+    background-color: #6c757d; /* Darker gray background to match sidebar */
+    color: white; /* White text color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect for consistency */
+    max-width: 800px; /* Max width for better layout on large screens */
+}
+
+/* Ensure form controls match the design */
+.form-container .form-control {
+    background-color: #495057; /* Darker gray input background */
+    border-color: #6c757d; /* Matching border color for inputs */
+    color: white; /* White text color */
+}
+
+.form-container .form-control::placeholder {
+    color: #adb5bd; /* Light placeholder text */
+}
+
+.form-container .btn1 {
+    background-color: #90ee90; /* Primary button background */
+    border-color: #90ee90; /* Match button border color */
+}
+
+.form-container .btn1:hover {
+    background-color: #76c7c0; /* Hover effect */
+    border-color: #76c7c0; /* Match hover border color */
+}
+
+.form-container h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}

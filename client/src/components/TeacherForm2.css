@@ -1,0 +1,78 @@
+/* TeacherForm2.css */
+
+/* Container styling */
+.teacher-form2-container {
+    margin-top: 100px; /* Space from the top, adjusted to fit below the fixed navbar */
+    padding: 20px; /* Increased padding for better spacing */
+    background-color: #212529; /* Dark background matching the sidebar */
+    color: white; /* White text color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect for consistency */
+    max-width: 800px; /* Limit the width for better readability */
+    margin-left: auto; /* Center the form horizontally */
+    margin-right: auto; /* Center the form horizontally */
+  }
+  
+  /* Heading styling */
+  .teacher-form2-container h2 {
+    color: white; /* White text color for the heading */
+    font-size: 1.5rem; /* Adjust heading font size if needed */
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  /* Form control styling */
+  .teacher-form2-container .form-control {
+    background-color: #343a40; /* Darker gray input background */
+    border-color: #495057; /* Darker border color for inputs */
+    color: white; /* White text color */
+  }
+  
+  /* Placeholder text styling */
+  .teacher-form2-container .form-control::placeholder {
+    color: #adb5bd; /* Light placeholder text */
+  }
+  
+  /* Button styling */
+  .teacher-form2-container .btn-primary {
+    background-color: #90ee90; /* Primary button background */
+    border-color: #90ee90; /* Match button border color */
+    color: black; /* Button text color */
+  }
+  
+  .teacher-form2-container .btn-primary:hover {
+    background-color: #76c7c0; /* Hover effect */
+    border-color: #76c7c0; /* Match hover border color */
+    color: white; /* Button text color on hover */
+  }
+  
+  /* Timetable display container */
+  .timetable-display {
+    margin-top: 20px;
+  }
+  
+  /* Table styling */
+  .timetable-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #343a40; /* Darker gray background for table */
+  }
+  
+  /* Table header and cell styling */
+  .timetable-table th,
+  .timetable-table td {
+    border: 1px solid #495057; /* Darker border color */
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Table header styling */
+  .timetable-table th {
+    background-color: #212529; /* Dark header background */
+    color: white; /* White text color */
+  }
+  
+  /* Empty cell styling */
+  .empty-cell {
+    background-color: #495057; /* Darker gray for empty cells */
+  }
+  

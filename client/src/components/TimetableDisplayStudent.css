@@ -1,0 +1,30 @@
+.timetable-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    overflow-x: auto; /* Enable horizontal scrolling if the table is too wide */
+}
+
+.timetable-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensure table layout doesn't overflow */
+}
+
+.timetable-table th, .timetable-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.timetable-table th {
+    background-color: #f4f4f4;
+}
+
+.timetable-table td {
+    vertical-align: top;
+}
+
+.empty-cell {
+    background-color: #f9f9f9; /* Light gray for empty cells */
+}

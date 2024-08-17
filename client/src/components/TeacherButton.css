@@ -1,0 +1,25 @@
+.teacher-button-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .teacher-button {
+    margin: 10px;
+    width: 200px;
+    font-size: 1rem;
+    text-transform: none; /* Optional: to avoid uppercase text */
+  }
+  
+  .teacher-button:hover {
+    background-color: #76c7c0; /* Lighter green-blue for hover effect */
+    color: white;
+    border-color: #76c7c0;
+  }
+  
+  .teacher-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(118, 199, 192, 0.5); /* Subtle focus ring */
+  }
+  

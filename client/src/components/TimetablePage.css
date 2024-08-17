@@ -1,0 +1,55 @@
+/* General Styles for Timetable Page */
+.timetable-page {
+    margin-left: 230px; /* Adjust according to sidebar width */
+    padding: 20px; /* General padding for content */
+    background-color: #f8f9fa; /* Light background for the main content */
+    min-height: calc(100vh - 56px); /* Full height minus the navbar height */
+    box-sizing: border-box;
+}
+
+/* Timetable Table Styles */
+.timetable-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between table cells */
+    margin-bottom: 20px; /* Space below the table */
+}
+
+.timetable-table th,
+.timetable-table td {
+    border: 1px solid #dee2e6; /* Light border for table cells */
+    padding: 10px; /* Padding inside table cells */
+    text-align: center; /* Center align text */
+}
+
+.timetable-table th {
+    background-color: #343a40; /* Dark background for headers */
+    color: white; /* White text color for headers */
+}
+
+.timetable-table td {
+    background-color: #ffffff; /* White background for table data */
+    color: #212529; /* Dark text color for table data */
+}
+
+/* Time Slot and Day Styles */
+.time-slot {
+    font-weight: bold; /* Bold text for time slots */
+    background-color: #f1f1f1; /* Light grey background for time slots */
+}
+
+.day {
+    font-weight: bold; /* Bold text for days */
+    background-color: #e9ecef; /* Light background for days */
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .timetable-page {
+        margin-left: 0; /* Remove left margin for small screens */
+        padding: 10px; /* Reduced padding for small screens */
+    }
+
+    .timetable-table {
+        font-size: 0.9rem; /* Smaller font size for smaller screens */
+    }
+}

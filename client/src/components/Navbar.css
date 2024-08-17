@@ -1,0 +1,38 @@
+
+
+.bg-white {
+    background-color: white !important;
+  }
+  
+  .navbar-brand div {
+    line-height: 1.2;
+  }
+
+
+.search_btn {
+  background-color: #90ee90; 
+  border-color: #90ee90;
+  color: black;
+}
+
+.search_btn:hover,
+.search_btn:focus {
+  background-color: #76c7c0;
+  border-color: #76c7c0;
+  color: white; 
+}
+
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050; /* Ensure it's above other content */
+  background-color: #212529; /* Match the background color */
+}
+
+/* Ensure padding or margin at the top of the main content */
+.content-padding {
+  padding-top: 56px; /* Adjust this value to match the height of your navbar */
+}

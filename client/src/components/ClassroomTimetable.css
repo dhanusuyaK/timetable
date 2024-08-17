@@ -1,0 +1,28 @@
+/* ClassroomTimetable.css */
+.timetable-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.timetable-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.timetable-table th, .timetable-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.timetable-table th {
+    background-color: #f4f4f4;
+}
+
+.timetable-table td {
+    vertical-align: top;
+}
+
+.empty-cell {
+    background-color: #f9f9f9; /* Light gray for empty cells */
+}
